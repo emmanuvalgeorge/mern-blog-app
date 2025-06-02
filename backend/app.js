@@ -1,6 +1,6 @@
 const express = require('express')
 const mongoose = require('mongoose');
-const Product = require('./models/blog'); // Adjust the path as necessary
+const Blog = require('./models/blog'); 
 const cors = require('cors');
 
 const app = express()
